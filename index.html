@@ -270,6 +270,8 @@
   /* ===== PAGE 2 — FOTO ===== */
   #page2 {
     background: var(--dark2);
+    align-items: flex-start;
+    overflow-y: auto;
   }
   .page2-bg {
     position: absolute;
@@ -400,7 +402,23 @@
   #page3 {
     background: var(--dark);
   }
-  .page3-bg {
+  .page3-content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    padding: 80px 6% 40px;
+    max-width: 760px;
+    margin: 0 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 100vh;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .page3-content::-webkit-scrollbar {
+    display: none;
+  }
     position: absolute;
     inset: 0;
     background:
@@ -942,25 +960,19 @@
     <div class="letter-card">
       <span class="open-quote">"</span>
       <p>
-        Annisa, hari ini adalah harimu — hari yang sangat istimewa,
-        hari di mana kamu hadir ke dunia dan membuat segalanya
-        menjadi lebih indah.
+haii cantik hari ini ya,hari dimana kamu susah lahir hehehe selamat ulang tahun yaa udah 20 tahun kamu hidup sekarang udah tambah gede dan sudah tambah dewasa,
+makasih yaa udah hadir di hidup aku yang sekarang lebih penuh warna,jujur setelah ada kamu jadi penuh warna,
+aku bersyukur banget bisa jadi orang yang ada di samping kamu saat kamu masuk ke usia baru ini,Makasih udah jadi diri kamu sendiri yang selalu bikin aku nyaman, 
+makasih udah mau berbagi tawa dan cerita sama aku.walaupun kadang aku banyak drama tapi kamu hebat kok udah bisa tenangin aku,
+ntah kenapa disaat aku panik kamu selalu nenangin selalu jadi nisa yang aku kenal yaa sayangg lovee youu🫶
       </p>
       <p class="highlight">
         Kamu adalah cahaya yang tidak pernah padam,<br>
         senyummu adalah alasan aku selalu bahagia.
       </p>
       <p>
-        Di hari ulang tahunmu ini, aku mendoakan yang terbaik
-        untukmu — kesehatan, kebahagiaan, dan semua impianmu
-        tercapai satu per satu. Aku akan selalu ada di sampingmu,
-        di setiap langkah perjalananmu.
+semoga kamu sehat selalu yaa,dan selalu di kelilingi orang orang baik jangan lupa juga baik sama orang yaa,semoga kamu makin kuat buat ngejar mimpi mimpi kamu dan semoga di setiap langkah yang kamu ambil di selalu dimudahkan,Aku berdoa supaya kamu tetep jadi perempuan yang rendah hati,makin bijak dalam setiap pilihan,dan yang paling penting,semoga kamu selalu bahagia sama diri kamu sendiri sebelum membahagiakan orang lain.dan untuk kita, semoga kita tetep bisa bareng bareng, saling jaga,dan saling dewasa buat ngelewatin tahun tahun ke depan. Amin. Happy birthday once again
       </p>
-      <p>
-        Selamat ulang tahun, sayangku. Semoga tahun ini menjadi
-        tahun terindah dalam hidupmu. 🎂
-      </p>
-
       <div class="sender-row">
         <div class="sender-line"></div>
         <span class="sender-heart">❤️</span>
